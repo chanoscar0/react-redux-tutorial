@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import TodoCreator from './containers/TodoCreator.jsx';
-import TodoList from './containers/TodoList.jsx';
+import ContactCreator from './containers/ContactCreator';
+import ContactList from './containers/ContactList';
 
 class App extends Component {
   render() {
     return (
       <div>
         <div className="App">
-          //Add Components Here
+          <ContactCreator/>
+          <ContactList/>
         </div>
       </div>
     );
